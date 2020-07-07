@@ -1,0 +1,285 @@
+body {
+    position: relative;
+    background-color: #EEEFF1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    top: 0;
+    align-items: center;
+    justify-content: space-around;
+    background: #EEEFF1;
+    z-index: 1;
+}
+
+.nav-btn {
+    padding: 10px 25px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-btn:hover {
+    color: #34547A;
+}
+  
+.nav-btn.active {
+    color: #34547A;
+}
+
+header {
+   display: flex;
+   padding: 100px 50px;
+}
+  
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.frame {
+    display: flex;
+    margin-right: 170px;
+}
+
+.btn {
+    text-decoration: none;
+    background: #34547A;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 15px 30px;
+    display: block;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #E5E5E5;
+    padding: 50px;
+}
+
+.about-me {
+    margin: 30px 120px;
+}
+
+#projects {
+    display: flex;
+    padding: 50px;
+    background: #34547A;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+#projects span {
+    font-weight: 500;
+}
+
+.project-item {
+    display: flex;
+}
+
+.project-item img {
+    margin-right: 20px;
+}
+
+#skills-block {
+    display: flex;
+    flex-direction: row;
+    background: #EEEFF1;
+    padding: 100px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    width: 100%;
+}
+
+.skill-line {
+    width: 100%;
+    height: 4px;
+    background: #C4C4C4;
+    border-radius: 5px;
+}
+
+.skill-line-value {
+    width: 75%;
+    height: 4px;
+    border-radius: 5px;
+    background: #34547A;
+}
+
+.photo {
+    display: flex;
+    width: 100%;
+    float: right;
+}
+
+.video-code {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.picture {
+    width: 100%;
+    padding: 45px;
+}
+
+.play {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+
+#work {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+#study {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.study-item {
+    position: relative;
+    max-width: 480px;
+    cursor: pointer;
+    width: 25%;
+}
+.study-item > img {
+    width: 100%;
+    height: 100%;
+}
+.study-item-hover {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+}
+.study-item:hover .study-item-hover{
+    display: block;
+}
+.eye {
+    position: absolute;
+    top: calc(50% - 29px);
+    left: calc(50% - 50px);
+}
+
+
+.notes-first {
+    position: absolute;
+    width: 25%;
+    left: -77px;
+}
+
+.laptop-hovered {
+    width: 44%;
+    margin-left: 238px;
+}
+
+.laptop-img {
+    display: flex;
+    position: relative;
+    
+}
+
+.notes-second {
+    width: 25%;
+    margin-left: -164px;
+}
+
+.laptop {
+    width: 25%;
+}
+
+.notes-third {
+    position: absolute;
+    width: 25%;
+    right: -238px;
+}
+
+#microsoft {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #F9F9F9;
+}
+
+.input-name-email {
+    padding: 35px;
+}
+
+.input-name-item {
+    border: none;
+    padding: 20px;
+    width: 268px;
+    height: 50px;
+
+}
+
+.input-email-item {
+    border: none;
+    padding: 20px;
+    width: 268px;
+    height: 50px;
+}
+
+.input-message-item {
+    border: none;
+    padding: 20px;
+    width: 540px;
+    height: 175px;
+}
+
+.btn-send {
+    border: none;
+    text-decoration: none;
+    background: #34547A;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 15px 30px;
+}
+
+#footer {
+    padding: 50px;
+    background-color: #34547A;
+    color: #FFFFFF;
+}
+
+#footer span {
+    font-weight: 500;
+}
+
+.vk {
+    padding: 5px 80px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
